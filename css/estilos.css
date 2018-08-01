@@ -1,0 +1,20 @@
+
+.hero {
+	background: #607D8B center / cover;
+}
+
+.emoticon { white-space: pre; }
+
+/* responsive */
+
+@media (max-width: 768px) {
+	:root {
+		font-size: 80%;
+	}
+}
+
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
